@@ -4,7 +4,6 @@
 #
 #   include caffeine
 class caffeine {
-
   $user = "/Users/${hostname}"
 
   package { 'Caffeine':
@@ -15,6 +14,6 @@ class caffeine {
   file { 'caffeine_config':
     path => "${user}/Library/Preferences/com.lightheadsw.caffeine.plist",
     content => template('caffeine/com.lightheadsw.caffeine.plist.erb'),
-    require => Package['boxen/caffeine']
+    require => Package['Caffeine']
   }
 }
