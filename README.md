@@ -1,6 +1,6 @@
-# Caffeine Puppet Module for Boxen
+# (custom) Caffeine Puppet Module for Boxen
 
-Install a customize [Caffeine](http://lightheadsw.com/caffeine), insomnia for your Mac.
+Install a customized [Caffeine](http://lightheadsw.com/caffeine), insomnia for your Mac.
 
 This module will enable by default the following:
 
