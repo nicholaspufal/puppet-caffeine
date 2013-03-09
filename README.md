@@ -1,6 +1,13 @@
 # Caffeine Puppet Module for Boxen
 
-Install [Caffeine](http://lightheadsw.com/caffeine), insomnia for your Mac.
+Install a customize [Caffeine](http://lightheadsw.com/caffeine), insomnia for your Mac.
+
+This module will enable by default the following:
+
+* Automatically start Caffeine at login
+* Caffeine enabled by default
+* Default duration is set as 'Indefinitly'
+* Disable welcome message
 
 ## Usage
 
